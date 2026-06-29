@@ -1,0 +1,17 @@
+{
+  "id": "task-signal",
+  "name": "Task Signal",
+  "version": "1.0.0",
+  "description": "监听任务变化，输出 tasks-signal.json 供外部监测脚本使用",
+  "manifestVersion": 1,
+  "minSupVersion": "14.0.0",
+  "author": "personal-pm",
+  "permissions": ["getTasks"],
+  "hooks": [
+    "taskCreated",
+    "taskComplete",
+    "taskUpdate",
+    "taskDelete",
+    "currentTaskChange"
+  ]
+}

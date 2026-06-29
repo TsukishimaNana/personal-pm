@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-06-25T09:15:30Z",
+  "event": "INIT",
+  "tasks": [
+    {
+      "id": "a1",
+      "title": "修复登录bug",
+      "isDone": false,
+      "tagIds": ["tag-computer"],
+      "timeEstimate": 7200000,
+      "projectId": "proj-dev"
+    },
+    {
+      "id": "a2",
+      "title": "写周报",
+      "isDone": false,
+      "tagIds": ["tag-computer"],
+      "timeEstimate": 3600000,
+      "projectId": "proj-dev"
+    },
+    {
+      "id": "a3",
+      "title": "健身",
+      "isDone": false,
+      "tagIds": ["tag-offline"],
+      "timeEstimate": 2700000,
+      "projectId": null
+    },
+    {
+      "id": "a4",
+      "title": "买菜",
+      "isDone": false,
+      "tagIds": ["tag-offline"],
+      "timeEstimate": null,
+      "projectId": null
+    }
+  ],
+  "currentTaskId": "a1"
+}
